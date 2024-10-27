@@ -9,7 +9,7 @@ import { IoMdMenu } from "react-icons/io";
 
 const NavBar = () => {
   const [visible, setVisible] = useState(false);
-  const [clicked, setClicked] = useState("home");
+  const [clicked, setClicked] = useState("");
   const {
     setShowSearch,
     getCartCount,
